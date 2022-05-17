@@ -1,0 +1,187 @@
+{
+    "intents": [
+        {
+            "tag": "saludos",
+            "patterns": [
+                "Hola",
+                "Que tal",
+                "Holis",
+                "Que onda",
+                "Hello",
+                "Hi",
+                "Buenos dias",
+                "Buen dia",
+                "Buenas tardes",
+                "Buenas noches"
+            ],
+            "responses": [
+                "Hola, gracias por preguntar",
+                "Que bueno verte de nuevo",
+                "Hola, como puedo ayudar?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "despedida",
+            "patterns": [
+                "Adios",
+                "Hasta luego",
+                "Nos vemos",
+                "Bye"
+            ],
+            "responses": [
+                "Bye",
+                "Hasta luego",
+                "Bye! Fue un gusto atenderte"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "Eso es util",
+                "Muchas gracias",
+                "Gracias"
+            ],
+            "responses": [
+                "Encantado de ayudar!",
+                "Cuando quieras",
+                "Fue un placer"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "sinrespuesta",
+            "patterns": [],
+            "responses": [
+                "Lo siento, no puedo entenderte",
+                "por favor dame mas informacion",
+                "No estoy seguro de entender"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "cursos",
+            "patterns": [
+                "Cuantos cursos puedo llevar",
+                "Que cursos puedo llevar el siguiente semestre"
+            ],
+            "responses": [
+                "Toda la informacion la puedes enontrar aqui\n\thttp://ryca.cunoc.edu.gt/sireca/index.php"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "asignaciones",
+            "patterns": [
+                "Como realizo mi asignacion",
+                "Como realizo mi des asignacion"
+            ],
+            "responses": [
+                " Ingresar previamente al portal de SIRECA (para actualizaci\u00f3n de inscripci\u00f3n 2021) Descargar el Calendario del Segundo Semestre 2021. Verificar que los cursos que se asigne no presente traslapes, debido a que la actualizaci\u00f3n a SIRECA no asignar\u00e1 los cursos que tengan traslape."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "pagos",
+            "patterns": [
+                "Cu\u00e1les son los pasos para graduarme"
+            ],
+            "responses": [
+                "http://www.ingenieria.cunoc.usac.edu.gt/portal/carpetas/reglamentos/evaluacion%20y%20promocion%20del%20cunoc.pdf"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "examenes",
+            "patterns": [
+                "Como realizar la prueba de orientacion vocacional."
+            ],
+            "responses": [
+                "- Llenar el formulario con Nombres y Apellidos Completos.\n- Generar Orden de Pago\n- Efectuar el pago en Banrural - G&T o a traves de banca virtual.\n- Guardar orden y boleta de pago original (Esta boleta contiene datos importantes para la futura asignacion de la prueba de Orientacion Vocacional)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "graduacion",
+            "patterns": [
+                "Cu\u00e1l es el proceso de cierre"
+            ],
+            "responses": [
+                "Presentar solicitud dirigida al Coordinador de la Carrera de Abogado y Notario, con los datos generales del solicitante: Nombres y Apellidos completos. Registro Acad\u00e9mico (que es el n\u00famero de carn\u00e9) N\u00famero de Carn\u00e9 (es el numero de DPI)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "eps",
+            "patterns": [
+                "Como apruebo mi trabajo de pr\u00e1cticas y EPS"
+            ],
+            "responses": [
+                "http://ingenieria.cunoc.usac.edu.gt/portal/carpetas/reglamentos/practicas.pdf"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "inscripcion",
+            "patterns": [
+                "Como me puedo inscribir",
+                "Cuales son los pasos de inscripcion"
+            ],
+            "responses": [
+                "La inscripcion la realizas en linea, pronto postearemos la fecha de inicio.\n http://ryca.cunoc.edu.gt/"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "resultados",
+            "patterns": [
+                "Donde puedo encontrar resultados",
+                "Despues de mi examen donde veo mis resultados",
+                "No logro encontrar resultados de mi examen"
+            ],
+            "responses": [
+                "Los resultados puedes visualizarlos al momento de concluir tu Prueba Vocacional en linea.\n http://ryca.cunoc.edu.gt/"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "palbrascomunes",
+            "patterns": [
+                "di lo tuyo"
+            ],
+            "responses": [
+                "va"
+            ],
+            "context": [
+                ""
+            ]
+        }
+    ]
+}

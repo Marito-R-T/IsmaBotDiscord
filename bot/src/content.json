@@ -1,0 +1,40 @@
+{
+    "intents":
+    [
+        {
+            "tag": "saludo",
+            "input": [
+                "Hola", 
+                "Hola que tal", 
+                "Que paso", 
+                "Tengo una pregunta", 
+                "Hey", 
+                "Estas ahi"
+            ],
+            "responses": [
+                "Hola, bienvenido soy: ",
+                "Hola, que tal como puedo ayudarte?",
+                "Hey como estas, en que puedo ayudarte",
+                "Tiempo sin verte, como puedo ayudarte",
+                "Bienvenido, cual es tu consulta"
+            ]
+        },
+        {
+            "tag": "despedida",
+            "input": [
+                "Gracias por tu ayuda",
+                "Nos vemos",
+                "Gracias",
+                "Bye",
+                "Hasta luego"
+            ],
+            "responses" : [
+                "Ok, nos vemos",
+                "Hasta luego",
+                "Espero poder verte luego",
+                "Adiosito",
+                "Aca se rompio una tasa y cada quien pa' su casa"
+            ]
+        }
+    ]
+}
